@@ -1,0 +1,41 @@
+/* Estilos personalizados */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    padding-bottom: 60px; /* Añade un espacio para el footer */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header > .navbar{
+    background-color: #273D4F;
+}
+
+.navbar .nav-link {
+    color: #ffffff; /* Color blanco */
+}
+
+
+#logo{
+    width: 12em;
+    height :3em ;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border-color: gray;
+    color: gray; /* Opcional: mantiene el color del texto original */
+  }

@@ -1,0 +1,10 @@
+ /* Custom CSS to center the content vertically and horizontally */
+ body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

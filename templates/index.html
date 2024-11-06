@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title display-4">Acortador de URLs</h1>
+                <form method="POST" action="/" class="mt-4">
+                    <div class="mb-3">
+                        <label for="url_larga" class="form-label">Escribe aquí el URL a acortar</label>
+                        <input type="url" class="form-control" id="url_larga" name="url_larga" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Acortar</button>
+                    <button type="reset" class="btn btn-outline-secondary btn-transparent">Limpiar</button>
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% endblock %}
+
+{% block script %}
+
+{% endblock %}
